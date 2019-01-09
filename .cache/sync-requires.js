@@ -8,7 +8,6 @@ exports.layouts = {
 
 exports.components = {
   "component---src-templates-blog-post-js": preferDefault(require("/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/src/templates/blog-post.js")),
-  "component---cache-dev-404-page-js": preferDefault(require("/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/.cache/dev-404-page.js")),
   "component---src-pages-blog-js": preferDefault(require("/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/src/pages/blog.js")),
   "component---src-pages-index-js": preferDefault(require("/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/src/pages/index.js"))
 }
@@ -19,7 +18,6 @@ exports.json = {
   "blog-hello-world.json": require("/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/.cache/json/blog-hello-world.json"),
   "blog-static-sites-are-great.json": require("/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/.cache/json/blog-static-sites-are-great.json"),
   "blog-gatsby-contentful.json": require("/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/.cache/json/blog-gatsby-contentful.json"),
-  "dev-404-page.json": require("/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/.cache/json/dev-404-page.json"),
   "blog.json": require("/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/.cache/json/blog.json"),
   "index.json": require("/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/.cache/json/index.json")
 }
