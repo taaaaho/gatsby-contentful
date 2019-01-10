@@ -13,6 +13,7 @@ exports.json = {
   "blog-automate-with-webhooks.json": require("gatsby-module-loader?name=path---blog-automate-with-webhooks!/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/.cache/json/blog-automate-with-webhooks.json"),
   "blog-hello-world.json": require("gatsby-module-loader?name=path---blog-hello-world!/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/.cache/json/blog-hello-world.json"),
   "blog-static-sites-are-great.json": require("gatsby-module-loader?name=path---blog-static-sites-are-great!/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/.cache/json/blog-static-sites-are-great.json"),
+  "blog-check.json": require("gatsby-module-loader?name=path---blog-check!/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/.cache/json/blog-check.json"),
   "blog.json": require("gatsby-module-loader?name=path---blog!/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/.cache/json/blog.json"),
   "index.json": require("gatsby-module-loader?name=path---index!/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/.cache/json/index.json")
 }

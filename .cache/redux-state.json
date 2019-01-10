@@ -739,12 +739,12 @@
       "siteMetadata": {},
       "pathPrefix": "/gatsby-contentful",
       "polyfill": true,
-      "buildTime": "2019-01-10T19:07:50.464Z",
+      "buildTime": "2019-01-10T19:37:20.590Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "611339f2af38a4d04c7fcffeda28841c",
+        "contentDigest": "f9f3fdc015ae4ff04590986a3c409fb0",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1310,6 +1310,95 @@
       "excerpt": "",
       "rawMarkdownBody": "## The case for the static site generator\n\nMore and more developers are jumping on the \"go static train\", and rightfully so. Static pages are fast, lightweight, they scale well. They are more secure, and simple to maintain and they allow you to focus all your time and effort on the user interface. Often times, this dedication really shows.\n\nIt just so happens that static site generators are mostly loved by developers, but not by the average Joe. They do not offer WYSIWYG, previewing on demo sites may take an update cycle, they are often based on markdown text files, and they require some knowledge of modern day repositories.\n\nMoreover, when teams are collaborating, it can get complicated quickly. Has this article already been proof-read or reviewed? Is this input valid? Are user permissions available, e.g. for administering adding and removing team members? Can this article be published at a future date? How can a large repository of content be categorized, organized, and searched? All these requirements have previously been more or less solved within the admin area of your CMS. But of course with all the baggage that made you leave the appserver-app-database-in-one-big-blob stack in the first place.\n\n## Content APIs to the rescue\n\nAn alternative is decoupling the content management aspect from the system. And then replacing the maintenance prone server with a cloud based web service offering. Effectively, instead of your CMS of old, you move to a [Content Management as a Service (CMaaS)](https://www.contentful.com/r/knowledgebase/content-as-a-service/ \"Content Management as a Service (CMaaS)\") world, with a content API to deliver all your content. That way, you get the all the [benefits of content management features](http://www.digett.com/blog/01/16/2014/pairing-static-websites-cms \"benefits of content management features\") while still being able to embrace the static site generator mantra.\n\nIt so happens that Contentful is offering just that kind of content API. A service that\n\n* from the ground up has been designed to be fast, scalable, secure, and offer high uptime, so that you don’t have to worry about maintenance ever again.\n* offers a powerful editor and lots of flexibility in creating templates for your documents that your editors can reuse and combine, so that no developers resources are required in everyday writing and updating tasks.\n* separates content from presentation, so you can reuse your content repository for any device platform your heart desires. That way, you can COPE (\"create once, publish everywhere\").\n* offers webhooks that you can use to rebuild your static site in a fully automated fashion every time your content is modified.\n\nExtracted from the article [CMS-functionality for static site generators](https://www.contentful.com/r/knowledgebase/contentful-api-cms-static-site-generators/ \"CMS-functionality for static site generators\"). Read more about the [static site generators supported by Contentful](https://www.contentful.com/developers/docs/tools/staticsitegenerators/ \"static site generators supported by Contentful\")."
     },
+    "c6w2rkU4M0gmmUg82ywMYQ": {
+      "title": "更新の確認",
+      "slug": "check",
+      "publishDate": "2019-01-10T00:00+09:00",
+      "heroImage___NODE": "c7orLdboQQowIUs22KAW4U",
+      "description___NODE": "c6w2rkU4M0gmmUg82ywMYQdescriptionTextNode",
+      "body___NODE": "c6w2rkU4M0gmmUg82ywMYQbodyTextNode",
+      "id": "c6w2rkU4M0gmmUg82ywMYQ",
+      "contentful_id": "6w2rkU4M0gmmUg82ywMYQ",
+      "createdAt": "2019-01-10T19:27:57.407Z",
+      "updatedAt": "2019-01-10T19:27:57.407Z",
+      "parent": "Blog Post",
+      "children": [
+        "c6w2rkU4M0gmmUg82ywMYQdescriptionTextNode",
+        "c6w2rkU4M0gmmUg82ywMYQbodyTextNode"
+      ],
+      "internal": {
+        "type": "ContentfulBlogPost",
+        "contentDigest": "b2be10dc6110fa833af0ba1da5aef5a2",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "c6w2rkU4M0gmmUg82ywMYQdescriptionTextNode": {
+      "id": "c6w2rkU4M0gmmUg82ywMYQdescriptionTextNode",
+      "parent": "c6w2rkU4M0gmmUg82ywMYQ",
+      "children": [
+        "c6w2rkU4M0gmmUg82ywMYQdescriptionTextNode >>> MarkdownRemark"
+      ],
+      "description": "for check adding article",
+      "internal": {
+        "type": "contentfulBlogPostDescriptionTextNode",
+        "mediaType": "text/markdown",
+        "content": "for check adding article",
+        "contentDigest": "81da174f0dadc7ba1c7c58ae960a7054",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c6w2rkU4M0gmmUg82ywMYQbodyTextNode": {
+      "id": "c6w2rkU4M0gmmUg82ywMYQbodyTextNode",
+      "parent": "c6w2rkU4M0gmmUg82ywMYQ",
+      "children": [
+        "c6w2rkU4M0gmmUg82ywMYQbodyTextNode >>> MarkdownRemark"
+      ],
+      "body": "this is body.\ncan you see me?",
+      "internal": {
+        "type": "contentfulBlogPostBodyTextNode",
+        "mediaType": "text/markdown",
+        "content": "this is body.\ncan you see me?",
+        "contentDigest": "991c82df48f37855cfda616eaf8cced8",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c6w2rkU4M0gmmUg82ywMYQdescriptionTextNode >>> MarkdownRemark": {
+      "id": "c6w2rkU4M0gmmUg82ywMYQdescriptionTextNode >>> MarkdownRemark",
+      "children": [],
+      "parent": "c6w2rkU4M0gmmUg82ywMYQdescriptionTextNode",
+      "internal": {
+        "content": "for check adding article",
+        "type": "MarkdownRemark",
+        "contentDigest": "9c9a4edf647972ae3de7db79242476bd",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "_PARENT": "c6w2rkU4M0gmmUg82ywMYQdescriptionTextNode",
+        "parent": "c6w2rkU4M0gmmUg82ywMYQdescriptionTextNode"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "for check adding article"
+    },
+    "c6w2rkU4M0gmmUg82ywMYQbodyTextNode >>> MarkdownRemark": {
+      "id": "c6w2rkU4M0gmmUg82ywMYQbodyTextNode >>> MarkdownRemark",
+      "children": [],
+      "parent": "c6w2rkU4M0gmmUg82ywMYQbodyTextNode",
+      "internal": {
+        "content": "this is body.\ncan you see me?",
+        "type": "MarkdownRemark",
+        "contentDigest": "f2bd5303acbfd2341b038b231ba5665b",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "_PARENT": "c6w2rkU4M0gmmUg82ywMYQbodyTextNode",
+        "parent": "c6w2rkU4M0gmmUg82ywMYQbodyTextNode"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "this is body.\ncan you see me?"
+    },
     "SitePage /blog/gatsby-contentful/": {
       "layout": "index",
       "jsonName": "blog-gatsby-contentful.json",
@@ -1328,7 +1417,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "686079f9502f2cc384698a8a1716cc6b",
+        "contentDigest": "f4cd5f45ace8b0e4d454b75c744254ca",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1351,7 +1440,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "bc391b936b6af63186988b05ef3e1f20",
+        "contentDigest": "ecb53e241c2b758ca5f387e6fdff61b7",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1374,7 +1463,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "50c9b4e0108f8e5501709ae369995037",
+        "contentDigest": "1d866d1e24e1d480721c8154a131437d",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1397,7 +1486,30 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "166734fa9a4bf611d56cf02d9856f1ab",
+        "contentDigest": "f703410e20824d7aac75c41a0f28d65c",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/check/": {
+      "layout": "index",
+      "jsonName": "blog-check.json",
+      "internalComponentName": "ComponentBlogCheck",
+      "path": "/blog/check/",
+      "component": "/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "check"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/src/templates/blog-post.js",
+      "id": "SitePage /blog/check/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "07e5bda23ad73003236617397646e5be",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1418,7 +1530,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "72595a820dd7d3d6eb6eacc337bd8975",
+        "contentDigest": "39eb1690fb0c340b5932bf898462f7ae",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1439,7 +1551,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "faca0aedfd5b48b1007807efebed5099",
+        "contentDigest": "c708c4ab72af9f6618bb30bdef34d005",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1448,7 +1560,7 @@
   "status": {
     "plugins": {
       "gatsby-source-contentful": {
-        "gv84l0j2hdm4-master": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdybDkcOCFsOxw7TClMOHFm_DoAJrwq7Dp8OCwqnDvsK2wprCqWxbwpJRwovDtyXDmMOdJx3DtRB-ZBDDugxAwqoRQVA0w7NOwpnCksOGTUnClijDt0HDvsKDbhtqMcKXE1M"
+        "gv84l0j2hdm4-master": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdybCg8OLw6TDn8KkwoXDuMORFUXChcKEBhfDocKPwqVBRz8LH3xCwrppUMODVcOJwq3ChcK-woPDmCFcNlzCsDnDn23DvcOJMWIvw5rCt1DCrcKRRELDig0Dw4Z3FD1LHg"
       }
     },
     "PLUGINS_HASH": "20c14df0e8f61c14bcac538847c3b1a2"
@@ -1543,7 +1655,26 @@
         "/"
       ],
       "c7orLdboQQowIUs22KAW4U": [
+        "/",
+        "/blog/",
+        "/blog/check/"
+      ],
+      "c6w2rkU4M0gmmUg82ywMYQdescriptionTextNode": [
+        "/blog/",
         "/"
+      ],
+      "c6w2rkU4M0gmmUg82ywMYQdescriptionTextNode >>> MarkdownRemark": [
+        "/blog/",
+        "/"
+      ],
+      "c6w2rkU4M0gmmUg82ywMYQ": [
+        "/blog/check/"
+      ],
+      "c6w2rkU4M0gmmUg82ywMYQbodyTextNode": [
+        "/blog/check/"
+      ],
+      "c6w2rkU4M0gmmUg82ywMYQbodyTextNode >>> MarkdownRemark": [
+        "/blog/check/"
       ]
     },
     "connections": {

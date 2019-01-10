@@ -18,6 +18,7 @@ exports.json = {
   "blog-automate-with-webhooks.json": require("/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/.cache/json/blog-automate-with-webhooks.json"),
   "blog-hello-world.json": require("/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/.cache/json/blog-hello-world.json"),
   "blog-static-sites-are-great.json": require("/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/.cache/json/blog-static-sites-are-great.json"),
+  "blog-check.json": require("/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/.cache/json/blog-check.json"),
   "blog.json": require("/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/.cache/json/blog.json"),
   "index.json": require("/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/.cache/json/index.json")
 }
