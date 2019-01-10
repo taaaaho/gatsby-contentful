@@ -587,7 +587,7 @@
       "resolve": "/Users/takahohayashi/Documents/web/contentful/gatsby-contentful",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "d252352e77c46fb300365df4709a8b64",
+      "version": "3e4d481e784bffec30e1527da427e928",
       "pluginOptions": {
         "plugins": []
       },
@@ -651,7 +651,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ad41369af8c64eb74576b3a2999ed533",
+        "contentDigest": "a8b3d07a5c3c298249ebd4eb81a80b4d",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -737,14 +737,14 @@
     },
     "Site": {
       "siteMetadata": {},
-      "pathPrefix": "/gatsby-contentful-starter",
+      "pathPrefix": "/gatsby-contentful",
       "polyfill": true,
-      "buildTime": "2019-01-09T15:38:55.334Z",
+      "buildTime": "2019-01-10T19:07:50.464Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "1a7a37940728b7156df7ce1f82de5833",
+        "contentDigest": "611339f2af38a4d04c7fcffeda28841c",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -773,6 +773,7 @@
       "github": "johndoe",
       "image___NODE": "c7orLdboQQowIUs22KAW4U",
       "blog post___NODE": [
+        "c2BPJUExt9SwW0QioakEgUS",
         "c31TNnjHlfaGUoMOwU0M2og",
         "c3K9b0esdy0q0yGqgW2g6Ke",
         "c2PtC9h1YqIA6kaUaIsWEQ0"
@@ -788,7 +789,7 @@
       ],
       "internal": {
         "type": "ContentfulPerson",
-        "contentDigest": "22e37bc4eae357790ca3f8e5a32ac3fd",
+        "contentDigest": "284609b2f18a2eebd8b6ce3e558f5939",
         "owner": "gatsby-source-contentful"
       },
       "node_locale": "en-US"
@@ -820,6 +821,30 @@
         "contentDigest": "f9d3fe517ab1ddba3343c0c3a951b33d",
         "owner": "gatsby-source-contentful"
       }
+    },
+    "c2BPJUExt9SwW0QioakEgUS": {
+      "title": "GatsbyとContentfulでサンプル投稿してみる",
+      "slug": "gatsby-contentful",
+      "publishDate": "2019-01-08T00:00+09:00",
+      "heroImage___NODE": "c6Od9v3wzLOysiMum0Wkmme",
+      "author___NODE": "c15jwOBqpxqSAOy2eOO4S0m",
+      "description___NODE": "c2BPJUExt9SwW0QioakEgUSdescriptionTextNode",
+      "body___NODE": "c2BPJUExt9SwW0QioakEgUSbodyTextNode",
+      "id": "c2BPJUExt9SwW0QioakEgUS",
+      "contentful_id": "2BPJUExt9SwW0QioakEgUS",
+      "createdAt": "2019-01-09T14:55:59.558Z",
+      "updatedAt": "2019-01-09T14:55:59.558Z",
+      "parent": "Blog Post",
+      "children": [
+        "c2BPJUExt9SwW0QioakEgUSdescriptionTextNode",
+        "c2BPJUExt9SwW0QioakEgUSbodyTextNode"
+      ],
+      "internal": {
+        "type": "ContentfulBlogPost",
+        "contentDigest": "63f2281800498d6315a6d38a630ff011",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
     },
     "c31TNnjHlfaGUoMOwU0M2og": {
       "title": "Automate with webhooks",
@@ -902,6 +927,36 @@
         "owner": "gatsby-source-contentful"
       },
       "node_locale": "en-US"
+    },
+    "c2BPJUExt9SwW0QioakEgUSdescriptionTextNode": {
+      "id": "c2BPJUExt9SwW0QioakEgUSdescriptionTextNode",
+      "parent": "c2BPJUExt9SwW0QioakEgUS",
+      "children": [
+        "c2BPJUExt9SwW0QioakEgUSdescriptionTextNode >>> MarkdownRemark"
+      ],
+      "description": "## マークアップも使える様子\n### これは見出し３",
+      "internal": {
+        "type": "contentfulBlogPostDescriptionTextNode",
+        "mediaType": "text/markdown",
+        "content": "## マークアップも使える様子\n### これは見出し３",
+        "contentDigest": "71dcd97815215026a60c7ac07058ac8e",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c2BPJUExt9SwW0QioakEgUSbodyTextNode": {
+      "id": "c2BPJUExt9SwW0QioakEgUSbodyTextNode",
+      "parent": "c2BPJUExt9SwW0QioakEgUS",
+      "children": [
+        "c2BPJUExt9SwW0QioakEgUSbodyTextNode >>> MarkdownRemark"
+      ],
+      "body": "## こちらが本文\nCMSとしては普通の使い心地。\nただカスタムコードとかWordPresｓのように使えるのかがわからずなのでなんとも言えず。。\n\n## 投稿時のバリデーションはきつめ\n投稿時には以下が必須\n- 説明文\n- 本文\n- アイキャッチ\n- 投稿日時\n\nいずれかが抜けているとエラーが表示されて投稿できない。",
+      "internal": {
+        "type": "contentfulBlogPostBodyTextNode",
+        "mediaType": "text/markdown",
+        "content": "## こちらが本文\nCMSとしては普通の使い心地。\nただカスタムコードとかWordPresｓのように使えるのかがわからずなのでなんとも言えず。。\n\n## 投稿時のバリデーションはきつめ\n投稿時には以下が必須\n- 説明文\n- 本文\n- アイキャッチ\n- 投稿日時\n\nいずれかが抜けているとエラーが表示されて投稿できない。",
+        "contentDigest": "07a390ad9f35a5770c813c16bce32fcd",
+        "owner": "gatsby-source-contentful"
+      }
     },
     "c31TNnjHlfaGUoMOwU0M2ogdescriptionTextNode": {
       "id": "c31TNnjHlfaGUoMOwU0M2ogdescriptionTextNode",
@@ -1111,6 +1166,42 @@
       "excerpt": "",
       "rawMarkdownBody": "Research and recommendations for modern stack websites."
     },
+    "c2BPJUExt9SwW0QioakEgUSdescriptionTextNode >>> MarkdownRemark": {
+      "id": "c2BPJUExt9SwW0QioakEgUSdescriptionTextNode >>> MarkdownRemark",
+      "children": [],
+      "parent": "c2BPJUExt9SwW0QioakEgUSdescriptionTextNode",
+      "internal": {
+        "content": "## マークアップも使える様子\n### これは見出し３",
+        "type": "MarkdownRemark",
+        "contentDigest": "0ba040d98b22b104949e8e3100606da8",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "_PARENT": "c2BPJUExt9SwW0QioakEgUSdescriptionTextNode",
+        "parent": "c2BPJUExt9SwW0QioakEgUSdescriptionTextNode"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "## マークアップも使える様子\n### これは見出し３"
+    },
+    "c2BPJUExt9SwW0QioakEgUSbodyTextNode >>> MarkdownRemark": {
+      "id": "c2BPJUExt9SwW0QioakEgUSbodyTextNode >>> MarkdownRemark",
+      "children": [],
+      "parent": "c2BPJUExt9SwW0QioakEgUSbodyTextNode",
+      "internal": {
+        "content": "## こちらが本文\nCMSとしては普通の使い心地。\nただカスタムコードとかWordPresｓのように使えるのかがわからずなのでなんとも言えず。。\n\n## 投稿時のバリデーションはきつめ\n投稿時には以下が必須\n- 説明文\n- 本文\n- アイキャッチ\n- 投稿日時\n\nいずれかが抜けているとエラーが表示されて投稿できない。",
+        "type": "MarkdownRemark",
+        "contentDigest": "7035bcaaffffe8cc9afce2d28694403e",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "_PARENT": "c2BPJUExt9SwW0QioakEgUSbodyTextNode",
+        "parent": "c2BPJUExt9SwW0QioakEgUSbodyTextNode"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "## こちらが本文\nCMSとしては普通の使い心地。\nただカスタムコードとかWordPresｓのように使えるのかがわからずなのでなんとも言えず。。\n\n## 投稿時のバリデーションはきつめ\n投稿時には以下が必須\n- 説明文\n- 本文\n- アイキャッチ\n- 投稿日時\n\nいずれかが抜けているとエラーが表示されて投稿できない。"
+    },
     "c31TNnjHlfaGUoMOwU0M2ogdescriptionTextNode >>> MarkdownRemark": {
       "id": "c31TNnjHlfaGUoMOwU0M2ogdescriptionTextNode >>> MarkdownRemark",
       "children": [],
@@ -1219,95 +1310,28 @@
       "excerpt": "",
       "rawMarkdownBody": "## The case for the static site generator\n\nMore and more developers are jumping on the \"go static train\", and rightfully so. Static pages are fast, lightweight, they scale well. They are more secure, and simple to maintain and they allow you to focus all your time and effort on the user interface. Often times, this dedication really shows.\n\nIt just so happens that static site generators are mostly loved by developers, but not by the average Joe. They do not offer WYSIWYG, previewing on demo sites may take an update cycle, they are often based on markdown text files, and they require some knowledge of modern day repositories.\n\nMoreover, when teams are collaborating, it can get complicated quickly. Has this article already been proof-read or reviewed? Is this input valid? Are user permissions available, e.g. for administering adding and removing team members? Can this article be published at a future date? How can a large repository of content be categorized, organized, and searched? All these requirements have previously been more or less solved within the admin area of your CMS. But of course with all the baggage that made you leave the appserver-app-database-in-one-big-blob stack in the first place.\n\n## Content APIs to the rescue\n\nAn alternative is decoupling the content management aspect from the system. And then replacing the maintenance prone server with a cloud based web service offering. Effectively, instead of your CMS of old, you move to a [Content Management as a Service (CMaaS)](https://www.contentful.com/r/knowledgebase/content-as-a-service/ \"Content Management as a Service (CMaaS)\") world, with a content API to deliver all your content. That way, you get the all the [benefits of content management features](http://www.digett.com/blog/01/16/2014/pairing-static-websites-cms \"benefits of content management features\") while still being able to embrace the static site generator mantra.\n\nIt so happens that Contentful is offering just that kind of content API. A service that\n\n* from the ground up has been designed to be fast, scalable, secure, and offer high uptime, so that you don’t have to worry about maintenance ever again.\n* offers a powerful editor and lots of flexibility in creating templates for your documents that your editors can reuse and combine, so that no developers resources are required in everyday writing and updating tasks.\n* separates content from presentation, so you can reuse your content repository for any device platform your heart desires. That way, you can COPE (\"create once, publish everywhere\").\n* offers webhooks that you can use to rebuild your static site in a fully automated fashion every time your content is modified.\n\nExtracted from the article [CMS-functionality for static site generators](https://www.contentful.com/r/knowledgebase/contentful-api-cms-static-site-generators/ \"CMS-functionality for static site generators\"). Read more about the [static site generators supported by Contentful](https://www.contentful.com/developers/docs/tools/staticsitegenerators/ \"static site generators supported by Contentful\")."
     },
-    "c2BPJUExt9SwW0QioakEgUS": {
-      "title": "GatsbyとContentfulでサンプル投稿してみる",
-      "slug": "gatsby-contentful",
-      "publishDate": "2019-01-08T00:00+09:00",
-      "heroImage___NODE": "c6Od9v3wzLOysiMum0Wkmme",
-      "author___NODE": "c15jwOBqpxqSAOy2eOO4S0m",
-      "description___NODE": "c2BPJUExt9SwW0QioakEgUSdescriptionTextNode",
-      "body___NODE": "c2BPJUExt9SwW0QioakEgUSbodyTextNode",
-      "id": "c2BPJUExt9SwW0QioakEgUS",
-      "contentful_id": "2BPJUExt9SwW0QioakEgUS",
-      "createdAt": "2019-01-09T14:55:59.558Z",
-      "updatedAt": "2019-01-09T14:55:59.558Z",
-      "parent": "Blog Post",
-      "children": [
-        "c2BPJUExt9SwW0QioakEgUSdescriptionTextNode",
-        "c2BPJUExt9SwW0QioakEgUSbodyTextNode"
-      ],
-      "internal": {
-        "type": "ContentfulBlogPost",
-        "contentDigest": "63f2281800498d6315a6d38a630ff011",
-        "owner": "gatsby-source-contentful"
+    "SitePage /blog/gatsby-contentful/": {
+      "layout": "index",
+      "jsonName": "blog-gatsby-contentful.json",
+      "internalComponentName": "ComponentBlogGatsbyContentful",
+      "path": "/blog/gatsby-contentful/",
+      "component": "/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "gatsby-contentful"
       },
-      "node_locale": "en-US"
-    },
-    "c2BPJUExt9SwW0QioakEgUSdescriptionTextNode": {
-      "id": "c2BPJUExt9SwW0QioakEgUSdescriptionTextNode",
-      "parent": "c2BPJUExt9SwW0QioakEgUS",
-      "children": [
-        "c2BPJUExt9SwW0QioakEgUSdescriptionTextNode >>> MarkdownRemark"
-      ],
-      "description": "## マークアップも使える様子\n### これは見出し３",
-      "internal": {
-        "type": "contentfulBlogPostDescriptionTextNode",
-        "mediaType": "text/markdown",
-        "content": "## マークアップも使える様子\n### これは見出し３",
-        "contentDigest": "71dcd97815215026a60c7ac07058ac8e",
-        "owner": "gatsby-source-contentful"
-      }
-    },
-    "c2BPJUExt9SwW0QioakEgUSbodyTextNode": {
-      "id": "c2BPJUExt9SwW0QioakEgUSbodyTextNode",
-      "parent": "c2BPJUExt9SwW0QioakEgUS",
-      "children": [
-        "c2BPJUExt9SwW0QioakEgUSbodyTextNode >>> MarkdownRemark"
-      ],
-      "body": "## こちらが本文\nCMSとしては普通の使い心地。\nただカスタムコードとかWordPresｓのように使えるのかがわからずなのでなんとも言えず。。\n\n## 投稿時のバリデーションはきつめ\n投稿時には以下が必須\n- 説明文\n- 本文\n- アイキャッチ\n- 投稿日時\n\nいずれかが抜けているとエラーが表示されて投稿できない。",
-      "internal": {
-        "type": "contentfulBlogPostBodyTextNode",
-        "mediaType": "text/markdown",
-        "content": "## こちらが本文\nCMSとしては普通の使い心地。\nただカスタムコードとかWordPresｓのように使えるのかがわからずなのでなんとも言えず。。\n\n## 投稿時のバリデーションはきつめ\n投稿時には以下が必須\n- 説明文\n- 本文\n- アイキャッチ\n- 投稿日時\n\nいずれかが抜けているとエラーが表示されて投稿できない。",
-        "contentDigest": "07a390ad9f35a5770c813c16bce32fcd",
-        "owner": "gatsby-source-contentful"
-      }
-    },
-    "c2BPJUExt9SwW0QioakEgUSdescriptionTextNode >>> MarkdownRemark": {
-      "id": "c2BPJUExt9SwW0QioakEgUSdescriptionTextNode >>> MarkdownRemark",
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/src/templates/blog-post.js",
+      "id": "SitePage /blog/gatsby-contentful/",
+      "parent": "SOURCE",
       "children": [],
-      "parent": "c2BPJUExt9SwW0QioakEgUSdescriptionTextNode",
       "internal": {
-        "content": "## マークアップも使える様子\n### これは見出し３",
-        "type": "MarkdownRemark",
-        "contentDigest": "0ba040d98b22b104949e8e3100606da8",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "",
-        "_PARENT": "c2BPJUExt9SwW0QioakEgUSdescriptionTextNode",
-        "parent": "c2BPJUExt9SwW0QioakEgUSdescriptionTextNode"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "## マークアップも使える様子\n### これは見出し３"
-    },
-    "c2BPJUExt9SwW0QioakEgUSbodyTextNode >>> MarkdownRemark": {
-      "id": "c2BPJUExt9SwW0QioakEgUSbodyTextNode >>> MarkdownRemark",
-      "children": [],
-      "parent": "c2BPJUExt9SwW0QioakEgUSbodyTextNode",
-      "internal": {
-        "content": "## こちらが本文\nCMSとしては普通の使い心地。\nただカスタムコードとかWordPresｓのように使えるのかがわからずなのでなんとも言えず。。\n\n## 投稿時のバリデーションはきつめ\n投稿時には以下が必須\n- 説明文\n- 本文\n- アイキャッチ\n- 投稿日時\n\nいずれかが抜けているとエラーが表示されて投稿できない。",
-        "type": "MarkdownRemark",
-        "contentDigest": "7035bcaaffffe8cc9afce2d28694403e",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "",
-        "_PARENT": "c2BPJUExt9SwW0QioakEgUSbodyTextNode",
-        "parent": "c2BPJUExt9SwW0QioakEgUSbodyTextNode"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "## こちらが本文\nCMSとしては普通の使い心地。\nただカスタムコードとかWordPresｓのように使えるのかがわからずなのでなんとも言えず。。\n\n## 投稿時のバリデーションはきつめ\n投稿時には以下が必須\n- 説明文\n- 本文\n- アイキャッチ\n- 投稿日時\n\nいずれかが抜けているとエラーが表示されて投稿できない。"
+        "type": "SitePage",
+        "contentDigest": "686079f9502f2cc384698a8a1716cc6b",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
     },
     "SitePage /blog/automate-with-webhooks/": {
       "layout": "index",
@@ -1327,7 +1351,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "abe9bc2642fe13e355f9f24345713752",
+        "contentDigest": "bc391b936b6af63186988b05ef3e1f20",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1350,7 +1374,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6c4084199af4167ffa87c990341a57a2",
+        "contentDigest": "50c9b4e0108f8e5501709ae369995037",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1373,30 +1397,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4bffb6495b71d58553a82e12646800d8",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /blog/gatsby-contentful/": {
-      "layout": "index",
-      "jsonName": "blog-gatsby-contentful.json",
-      "internalComponentName": "ComponentBlogGatsbyContentful",
-      "path": "/blog/gatsby-contentful/",
-      "component": "/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "context": {
-        "slug": "gatsby-contentful"
-      },
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/src/templates/blog-post.js",
-      "id": "SitePage /blog/gatsby-contentful/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "42f092647646856161f187bed8370800",
+        "contentDigest": "166734fa9a4bf611d56cf02d9856f1ab",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1417,7 +1418,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5aaa28c22ea595b51b2727bf2592de26",
+        "contentDigest": "72595a820dd7d3d6eb6eacc337bd8975",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1438,7 +1439,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3ce38dc73592e07a2af7c07192121edb",
+        "contentDigest": "faca0aedfd5b48b1007807efebed5099",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1450,38 +1451,24 @@
         "gv84l0j2hdm4-master": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdybDkcOCFsOxw7TClMOHFm_DoAJrwq7Dp8OCwqnDvsK2wprCqWxbwpJRwovDtyXDmMOdJx3DtRB-ZBDDugxAwqoRQVA0w7NOwpnCksOGTUnClijDt0HDvsKDbhtqMcKXE1M"
       }
     },
-    "PLUGINS_HASH": "c14cd9a5882b8f5e2dc5dee791dccca6"
+    "PLUGINS_HASH": "20c14df0e8f61c14bcac538847c3b1a2"
   },
   "componentDataDependencies": {
     "nodes": {
-      "c2PtC9h1YqIA6kaUaIsWEQ0": [
-        "/blog/static-sites-are-great/"
+      "c2BPJUExt9SwW0QioakEgUS": [
+        "/blog/gatsby-contentful/"
       ],
-      "c4NzwDSDlGECGIiokKomsyI": [
-        "/blog/static-sites-are-great/",
+      "c6Od9v3wzLOysiMum0Wkmme": [
+        "/blog/gatsby-contentful/",
+        "/blog/hello-world/",
         "/blog/",
         "/"
       ],
-      "c2PtC9h1YqIA6kaUaIsWEQ0bodyTextNode": [
-        "/blog/static-sites-are-great/"
-      ],
-      "c2PtC9h1YqIA6kaUaIsWEQ0bodyTextNode >>> MarkdownRemark": [
-        "/blog/static-sites-are-great/"
-      ],
-      "c3K9b0esdy0q0yGqgW2g6Ke": [
-        "/blog/hello-world/"
-      ],
-      "c6Od9v3wzLOysiMum0Wkmme": [
-        "/blog/hello-world/",
-        "/blog/",
-        "/",
+      "c2BPJUExt9SwW0QioakEgUSbodyTextNode": [
         "/blog/gatsby-contentful/"
       ],
-      "c3K9b0esdy0q0yGqgW2g6KebodyTextNode": [
-        "/blog/hello-world/"
-      ],
-      "c3K9b0esdy0q0yGqgW2g6KebodyTextNode >>> MarkdownRemark": [
-        "/blog/hello-world/"
+      "c2BPJUExt9SwW0QioakEgUSbodyTextNode >>> MarkdownRemark": [
+        "/blog/gatsby-contentful/"
       ],
       "c31TNnjHlfaGUoMOwU0M2og": [
         "/blog/automate-with-webhooks/"
@@ -1496,6 +1483,37 @@
       ],
       "c31TNnjHlfaGUoMOwU0M2ogbodyTextNode >>> MarkdownRemark": [
         "/blog/automate-with-webhooks/"
+      ],
+      "c3K9b0esdy0q0yGqgW2g6Ke": [
+        "/blog/hello-world/"
+      ],
+      "c3K9b0esdy0q0yGqgW2g6KebodyTextNode": [
+        "/blog/hello-world/"
+      ],
+      "c3K9b0esdy0q0yGqgW2g6KebodyTextNode >>> MarkdownRemark": [
+        "/blog/hello-world/"
+      ],
+      "c2PtC9h1YqIA6kaUaIsWEQ0": [
+        "/blog/static-sites-are-great/"
+      ],
+      "c4NzwDSDlGECGIiokKomsyI": [
+        "/blog/static-sites-are-great/",
+        "/blog/",
+        "/"
+      ],
+      "c2PtC9h1YqIA6kaUaIsWEQ0bodyTextNode": [
+        "/blog/static-sites-are-great/"
+      ],
+      "c2PtC9h1YqIA6kaUaIsWEQ0bodyTextNode >>> MarkdownRemark": [
+        "/blog/static-sites-are-great/"
+      ],
+      "c2BPJUExt9SwW0QioakEgUSdescriptionTextNode": [
+        "/blog/",
+        "/"
+      ],
+      "c2BPJUExt9SwW0QioakEgUSdescriptionTextNode >>> MarkdownRemark": [
+        "/blog/",
+        "/"
       ],
       "c2PtC9h1YqIA6kaUaIsWEQ0descriptionTextNode": [
         "/blog/",
@@ -1526,46 +1544,9 @@
       ],
       "c7orLdboQQowIUs22KAW4U": [
         "/"
-      ],
-      "c52Szd5mPVK8i4ig2SqMSyIdescriptionTextNode": [
-        "/",
-        "/blog/"
-      ],
-      "c52Szd5mPVK8i4ig2SqMSyIdescriptionTextNode >>> MarkdownRemark": [
-        "/",
-        "/blog/"
-      ],
-      "c52Szd5mPVK8i4ig2SqMSyI": [
-        "/blog/sample-post/"
-      ],
-      "c52Szd5mPVK8i4ig2SqMSyIbodyTextNode": [
-        "/blog/sample-post/"
-      ],
-      "c52Szd5mPVK8i4ig2SqMSyIbodyTextNode >>> MarkdownRemark": [
-        "/blog/sample-post/"
-      ],
-      "c2BPJUExt9SwW0QioakEgUSdescriptionTextNode": [
-        "/",
-        "/blog/"
-      ],
-      "c2BPJUExt9SwW0QioakEgUSdescriptionTextNode >>> MarkdownRemark": [
-        "/",
-        "/blog/"
-      ],
-      "c2BPJUExt9SwW0QioakEgUS": [
-        "/blog/gatsby-contentful/"
-      ],
-      "c2BPJUExt9SwW0QioakEgUSbodyTextNode": [
-        "/blog/gatsby-contentful/"
-      ],
-      "c2BPJUExt9SwW0QioakEgUSbodyTextNode >>> MarkdownRemark": [
-        "/blog/gatsby-contentful/"
       ]
     },
     "connections": {
-      "SitePage": [
-        "/dev-404-page/"
-      ],
       "ContentfulBlogPost": [
         "/blog/",
         "/"

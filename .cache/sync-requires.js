@@ -14,10 +14,10 @@ exports.components = {
 
 exports.json = {
   "layout-index.json": require("/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/.cache/json/layout-index.json"),
+  "blog-gatsby-contentful.json": require("/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/.cache/json/blog-gatsby-contentful.json"),
   "blog-automate-with-webhooks.json": require("/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/.cache/json/blog-automate-with-webhooks.json"),
   "blog-hello-world.json": require("/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/.cache/json/blog-hello-world.json"),
   "blog-static-sites-are-great.json": require("/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/.cache/json/blog-static-sites-are-great.json"),
-  "blog-gatsby-contentful.json": require("/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/.cache/json/blog-gatsby-contentful.json"),
   "blog.json": require("/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/.cache/json/blog.json"),
   "index.json": require("/Users/takahohayashi/Documents/web/contentful/gatsby-contentful/.cache/json/index.json")
 }

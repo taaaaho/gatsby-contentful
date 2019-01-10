@@ -20,7 +20,7 @@ if (!spaceId || !accessToken) {
 }
 
 module.exports = {
-  pathPrefix: '/gatsby-contentful-starter',
+  pathPrefix: '/gatsby-contentful',
   plugins: [
     'gatsby-transformer-remark',
     'gatsby-plugin-react-helmet',

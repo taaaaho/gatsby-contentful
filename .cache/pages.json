@@ -3,6 +3,13 @@
         "componentChunkName": "component---src-templates-blog-post-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "blog-gatsby-contentful.json",
+        "path": "/blog/gatsby-contentful/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "blog-automate-with-webhooks.json",
         "path": "/blog/automate-with-webhooks/"
     },
@@ -19,13 +26,6 @@
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "blog-static-sites-are-great.json",
         "path": "/blog/static-sites-are-great/"
-    },
-    {
-        "componentChunkName": "component---src-templates-blog-post-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "blog-gatsby-contentful.json",
-        "path": "/blog/gatsby-contentful/"
     },
     {
         "componentChunkName": "component---src-pages-blog-js",
